@@ -11,7 +11,14 @@ class MethodChannelClaritySupport extends ClaritySupportPlatform {
 
   @override
   Future<String?> getPlatformVersion() async {
-    final version = await methodChannel.invokeMethod<String>('getPlatformVersion');
+    final version =
+        await methodChannel.invokeMethod<String>('getPlatformVersion');
     return version;
+  }
+
+  @override
+  Future init({required String projectID}) async {
+    return await methodChannel
+        .invokeMethod('init', <String, dynamic>{'projectID': projectID});
   }
 }

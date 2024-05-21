@@ -26,4 +26,8 @@ abstract class ClaritySupportPlatform extends PlatformInterface {
   Future<String?> getPlatformVersion() {
     throw UnimplementedError('platformVersion() has not been implemented.');
   }
+
+  Future init({required String projectID}) {
+    throw UnimplementedError('clarity initialisation has not been implemented.');
+  }
 }

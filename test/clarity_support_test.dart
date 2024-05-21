@@ -7,13 +7,19 @@ import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 class MockClaritySupportPlatform
     with MockPlatformInterfaceMixin
     implements ClaritySupportPlatform {
-
   @override
   Future<String?> getPlatformVersion() => Future.value('42');
+
+  @override
+  Future init({required String projectID}) {
+    // TODO: implement init
+    throw UnimplementedError();
+  }
 }
 
 void main() {
-  final ClaritySupportPlatform initialPlatform = ClaritySupportPlatform.instance;
+  final ClaritySupportPlatform initialPlatform =
+      ClaritySupportPlatform.instance;
 
   test('$MethodChannelClaritySupport is the default instance', () {
     expect(initialPlatform, isInstanceOf<MethodChannelClaritySupport>());

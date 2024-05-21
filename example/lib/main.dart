@@ -22,7 +22,9 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
+     ClaritySupport().init(projectID: 'mfcm0ij9kh');
     initPlatformState();
+
   }
 
   // Platform messages are asynchronous, so we initialize in an async method.
