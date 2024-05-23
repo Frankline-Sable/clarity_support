@@ -39,7 +39,7 @@ No additional setup required for Android.
 
 ### iOS
 
-$${\color{red}NOT SUPPORTED}$$
+**NOT SUPPORTED**
 
 
 ## Usage
@@ -100,7 +100,7 @@ ClaritySupport.trackEvent('button_click', {
 - **'properties'** (Map<String, dynamic>): Additional properties to associate with the event.
 
 ### Code Samples
-For more usage examples, check out the [link examples](https://github.com/Frankline-Sable/progression_tree_map/tree/main/example) directory in the GitHub repository.
+For more usage examples, check out the [examples](https://github.com/Frankline-Sable/progression_tree_map/tree/main/example) directory in the GitHub repository.
 
 
 ## Advanced Configuration
@@ -130,8 +130,8 @@ ClaritySupport.configure({
 ## Best Practices
 
 ### Performance Tips
-    - Ensure that you initialize Clarity Support early in your app's lifecycle to start collecting data as soon as possible.
-    - Use custom events judiciously to avoid overwhelming the analytics with unnecessary data.
+- Ensure that you initialize Clarity Support early in your app's lifecycle to start collecting data as soon as possible.
+- Use custom events judiciously to avoid overwhelming the analytics with unnecessary data.
 
 ### Coding Standards
     - Follow Dart and Flutter best practices when integrating the plugin into your app.
@@ -140,14 +140,14 @@ ClaritySupport.configure({
 ## Contribution Guide
 
 ### How to Contribute
-We welcome contributions! Please read our [link contribution guidelines](https://github.com/Frankline-Sable/progression_tree_map/tree/main/example) before submitting a pull request.
+We welcome contributions! Please read our [contribution guidelines](https://github.com/Frankline-Sable/progression_tree_map/tree/main/example) before submitting a pull request.
 
 Coding Guidelines
 - Write clean, readable, and maintainable code.
 - Include tests for new features and bug fixes.
 
 ### Reporting Issues
-Report issues on our [link GitHub Issues](https://github.com/Frankline-Sable/progression_tree_map/tree/main/example) page.
+Report issues on our [GitHub Issues](https://github.com/Frankline-Sable/progression_tree_map/tree/main/example) page.
 
 ## Changelog
 
@@ -163,16 +163,7 @@ License
 
 ## License
 
-This project is licensed under the MIT License - see the [link LICENSE](LICENSE) file for details.
-
-##  Support
-
-### Contact Information
-For support, reach out via GitHub Discussions or email us at support@claritysupport.com.
-
-### Community Links
-Flutter Community
-Microsoft Clarity Documentation
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Appendices
 
