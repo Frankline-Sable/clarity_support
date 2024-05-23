@@ -1,3 +1,10 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Initial Clarity Support
+
+## 0.0.2
+
+* Updated READ.me
+* Added documentation
+
+

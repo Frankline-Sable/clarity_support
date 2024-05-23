@@ -31,7 +31,7 @@ class ClaritySupportPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
         if (call.method == "getPlatformVersion") {
             result.success("Android ${android.os.Build.VERSION.RELEASE}")
         } else if (call.method == "init") {
-            val productId: String? = call.argument<String>("productId")
+            val productId: String? = call.argument<String>("projectID")
 
             if (productId != null) {
                 val config = ClarityConfig(productId)
@@ -39,7 +39,7 @@ class ClaritySupportPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
             } else {
                 result.error(
                     "PRODUCT_ID_NULL",
-                    "Specify the product Id for microsoft clarity",
+                    "Specify the project Id for microsoft clarity",
                     null
                 )
             }

@@ -1,7 +1,7 @@
 name: clarity_support
 description: "Microsoft clarity support"
 version: 0.0.1
-homepage:
+homepage: https://github.com/Frankline-Sable/clarity_support
 
 environment:
   sdk: '>=3.3.3 <4.0.0'
