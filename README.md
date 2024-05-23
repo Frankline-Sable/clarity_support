@@ -39,7 +39,7 @@ No additional setup required for Android.
 
 ### iOS
 
-No additional setup required for iOS.
+$${\color{red}NOT SUPPORTED}$$
 
 
 ## Usage
@@ -177,8 +177,8 @@ Microsoft Clarity Documentation
 ## Appendices
 
 ### Additional Resources
-- Microsoft Clarity
-- Flutter Documentation
+- [Microsoft Clarity](https://clarity.microsoft.com/)
+- [Flutter Documentation](https://docs.flutter.dev/)
 
 ### Glossary
 - **Event Tracking:** Monitoring specific actions taken by users within the app.
