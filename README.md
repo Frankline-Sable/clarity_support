@@ -140,14 +140,14 @@ ClaritySupport.configure({
 ## Contribution Guide
 
 ### How to Contribute
-We welcome contributions! Please read our [contribution guidelines](https://github.com/Frankline-Sable/progression_tree_map/tree/main/example) before submitting a pull request.
+We welcome contributions! Please read our [contribution guidelines](https://elewacompanyltd.sharepoint.com/:b:/s/Tech/EW3_Xx4nx15GiFq3IsvhWcYBAoMYLM8hqqK_dIxyWoBoow?e=6LVRLP) before submitting a pull request.
 
 Coding Guidelines
 - Write clean, readable, and maintainable code.
 - Include tests for new features and bug fixes.
 
 ### Reporting Issues
-Report issues on our [GitHub Issues](https://github.com/Frankline-Sable/progression_tree_map/tree/main/example) page.
+Report issues on our [GitHub Issues](https://github.com/Frankline-Sable/clarity_support/issues) page.
 
 ## Changelog
 
